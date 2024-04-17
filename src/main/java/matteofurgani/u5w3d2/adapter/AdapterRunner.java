@@ -16,7 +16,7 @@ public class AdapterRunner implements CommandLineRunner {
         Info info = new Info();
         info.setNome("Matteo");
         info.setCognome("Furgani");
-        info.setDataDiNascita(new Date(1991 - 1900, 0, 5));
+        info.setDataDiNascita(new Date(91, 0, 5));
 
         DataSource adapter = new InfoAdapter(info);
         UserData userData = new UserData();

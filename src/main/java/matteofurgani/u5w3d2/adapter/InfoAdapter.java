@@ -6,10 +6,12 @@ import java.util.Date;
 
 @AllArgsConstructor
 public class InfoAdapter implements DataSource{
+
     private Info info;
 
     @Override
     public String getNomeCompleto() {
+
         return info.getNome() + " " + info.getCognome();
     }
 
